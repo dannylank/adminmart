@@ -1,0 +1,10 @@
+version: '3'
+services:
+  adminmart:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4200:4200"  # Map the container's port to the host machine
+    volumes:
+      - .:/app  # Mount the project directory into the container
