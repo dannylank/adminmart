@@ -18,13 +18,13 @@ const routes: Routes = [
         loadChildren: () =>
           import('./pages/pages.module').then((m) => m.PagesModule),
       },
-      {
-        path: 'ui-components',
-        loadChildren: () =>
-          import('./pages/ui-components/ui-components.module').then(
-            (m) => m.UicomponentsModule
-          ),
-      },
+      // {
+      //   path: 'ui-components',
+      //   loadChildren: () =>
+      //     import('./pages/ui-components/ui-components.module').then(
+      //       (m) => m.UicomponentsModule
+      //     ),
+      // },
       {
         path: 'extra',
         loadChildren: () =>
