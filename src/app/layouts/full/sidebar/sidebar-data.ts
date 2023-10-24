@@ -87,6 +87,6 @@ import { NavItem } from './nav-item/nav-item';
     {
       displayName: 'Editar',
       iconName: 'edit',
-      route: '/admin/crear',
+      route: '/admin/editar',
     },
   ];
