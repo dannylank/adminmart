@@ -1,1 +1,27 @@
-<p>editar works!</p>
+<table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>País</th>
+        <th>Latitud</th>
+        <th>Longitud</th>
+        <th>Ciudad</th>
+        <th>Título</th>
+        <th>Texto</th>
+        <th>Publicado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let polygon of polygons">
+        <td>{{ polygon.Id }}</td>
+        <td>{{ polygon.Id_Paises }}</td>
+        <td>{{ polygon.Lat }}</td>
+        <td>{{ polygon.Lng }}</td>
+        <td>{{ polygon.Ciudad }}</td>
+        <td>{{ polygon.Titulo }}</td>
+        <td>{{ polygon.Texto }}</td>
+        <td>{{ polygon.Publicado }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
